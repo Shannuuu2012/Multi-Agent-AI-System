@@ -93,4 +93,33 @@ Subject: New Regulation
 Effective from June 1st, all vendors must comply with Rule 45-A. 
 Contact compliance@agency.org for more information. 
 
+# Sample Output
+>> JSON Sample
+=== Output ===
+source_id: json_sample_001
+format: JSON
+intent: Invoice
+result: {'missing_fields': ['invoice_number'], 'anomalies': True, 'data': {'invoice_id': 'INV001', 'customer_id': 'CUST123', 'amount': 1500, 'date': '2025-05-25'}}
+timestamp: 2025-05-30T14:26:48.524296
+
+
+>> Email Sample
+=== Output ===
+source_id: email_sample_001
+format: Email
+intent: RFQ
+result: {'sender': 'john@company.com', 'urgency': 'Normal', 'content_snippet': 'From: john@company.com\nSubject: Request for Quote\n\nHi team,\n\nPlease send us a quotation for 50 units'}
+timestamp: 2025-05-30T14:26:50.128266
+
+
+>> PDF Sample
+=== Output ===
+source_id: pdf_sample_001
+format: PDF
+intent: Regulation
+result: {'text': 'Subject: New Regulation \n \nEffective from June 1st, all vendors must comply with Rule 45-A. \nContact compliance@agency.org for more information.'}
+timestamp: 2025-05-30T14:26:51.418167
+### Terminal Output
+
+![Sample Terminal Output](docs/Screenshot-1.png)
 
