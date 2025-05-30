@@ -1,0 +1,9 @@
+From: john@company.com
+Subject: Request for Quote
+
+Hi team,
+
+Please send us a quotation for 50 units of your product by end of the day.
+
+Thanks,
+John

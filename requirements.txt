@@ -1,0 +1,6 @@
+# Core
+transformers
+torch
+redis
+python-dotenv
+PyMuPDF
