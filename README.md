@@ -56,16 +56,16 @@ pip install -r requirements.txt
 
 ### 4.Starting the server
 redis-cli ping
-# Output should be: PONG
+#### Output should be: PONG
 If Redis not running, run redis-server.exe (from installed folder)
 
 ### 5.Running the project
 python test_runner.py
 
 
-### 🧪Sample Input files
+## 🧪Sample Input files
 
-## 1.sample_invoice.json
+### 1.sample_invoice.json
 
 {
   "invoice_id": "INV-1001",
@@ -73,7 +73,7 @@ python test_runner.py
   "amount": 1250.00,
   "date": "2025-05-30"
 }
-## 2.sample_email.txt
+### 2.sample_email.txt
 
 
 From: john@company.com
@@ -86,7 +86,7 @@ Please send us a quotation for 50 units of product ABC.
 Regards,
 John
 
-## 3.Sample_regulation.pdf
+### 3.Sample_regulation.pdf
 
 Subject: New Regulation 
  
